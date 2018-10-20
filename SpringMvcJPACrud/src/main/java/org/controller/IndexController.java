@@ -80,12 +80,4 @@ public class IndexController
 		this.idiotService = idiotService;
 	}
 	
-	/*public void updateIdiot(@RequestParam("id") int id,@RequestParam("name") String name,@RequestParam("email") String email,@RequestParam("mobile") long mobile,@RequestParam("country") String country)
-	{
-		Idiot idiot = new Idiot();
-		idiot.setId(id);
-		idiot.setEmail(email);
-		idiot.setCountry(country);
-		idiot.setMobile(mobile);
-		idiot.setName(name);*/
 }
